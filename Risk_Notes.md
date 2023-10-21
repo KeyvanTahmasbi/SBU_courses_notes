@@ -88,5 +88,3 @@ reference: [Principles of Risk Management and Insurance](https://drive.google.co
     - Because nondiversifiable risk affects the entire economy or large numbers of persons in the economy, it is also called fundamental risk (ریسک بنیادی).
 - Enterprise risk (ریسک سازمانی)
 - Systemic risk
-
-[here](H:/My Drive/MD_Notes/PCA.md)
