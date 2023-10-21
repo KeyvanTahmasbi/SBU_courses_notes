@@ -87,4 +87,10 @@ reference: [Principles of Risk Management and Insurance](https://drive.google.co
     - Examples include rapid inflation, cyclical unemployment, war, hurricanes, floods, and earthquakes because large numbers of individuals or groups are affected.
     - Because nondiversifiable risk affects the entire economy or large numbers of persons in the economy, it is also called fundamental risk (ریسک بنیادی).
 - Enterprise risk (ریسک سازمانی)
+  - Enterprise risk is a term that encompasses all major risks faced by a business firm. Such risks include pure risk, speculative risk, strategic risk, operational risk, and financial risk.
+  - **Strategic risk** refers to uncertainty regarding the firm’s financial goals and objectives; for example, if a firm enters anew line of business, the line may be unprofitable.
+  - **Operational risk** results from the firm’s business operations. For example, a bank that offers online banking services may incur losses if “hackers” break into the bank’s computer.
+  - **Financial risk** refers to the uncertainty of loss because of adverse changes in commodity prices, interest rates, foreign exchange rates, and the value of money.
 - Systemic risk
+  - Systemic risk is the risk of collapse of an entire system or entire market due to the failure of a single entity or group of entities that can result in the breakdown of the entire financial system.
+  - For example, the severe 2008–2009 business recession in the United States was the second-worst economic downswing in U.S. 
