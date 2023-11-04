@@ -1,6 +1,8 @@
 **Keyvan Tahmasbi (ktahmasbi77@gmail.com)**
 # فصل 2: رگرسیون و توزیع نرمال
 ### توزیع نرمال دو متغیره
+$\textbf{y} = \textbf{x}$
+
 $\textbf{y} = \begin{pmatrix} x \\ y \end{pmatrix}$,
 
 \mu = \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix}
