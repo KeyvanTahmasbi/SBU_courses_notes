@@ -4,12 +4,12 @@
 $\textbf{y} = \textbf{x}$
 
 ```
-\textbf{y} = \begin{pmatrix} x \\ y \end{pmatrix},
+\textbf{y} = \begin{pmatrix} x \\ y \end{pmatrix}
+```,
 
 \mu = \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix}
 
 \Sigma =  \begin{pmatrix} \sigma^2_x & \sigma^2_{xy} \\ \sigma^2_{xy} & \sigma^2_y \end{pmatrix}
-``````
 
 پارامترهای توزیع کناری:
 
