@@ -284,19 +284,20 @@ $$
 E(y|X) = \mu_y + \Sigma_{yX} \Sigma_{XX}^{-1} (X-\mu_X) = \mu_y + \sigma'_{Xy} \Sigma_{XX}^{-1}(X-\mu_X)
 $$
 
-```math
 $$
 Var(y|X) = \sigma_y^2 - \sigma'_{Xy} \Sigma_{XX}^{-1} \sigma_{Xy}
 $$
-```
+
 
 #
 ### مثال
 فرض کنید ماتریس پراکندگی متغیرها $_1y$ , $_2y$, $_3y$ به صورت زیر است:
 
+```math
 $$
 \begin{pmatrix} 1 & 0.5 & 0.5 \\ 0.5 & 1 & 0.25 \\ 0.5 & 0.25 & 1 \end{pmatrix}
 $$
+```
 
 توزیع $y1,y2|y3$ را شبیه سازی کنید.
 
