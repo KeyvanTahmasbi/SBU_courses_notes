@@ -348,7 +348,10 @@ lmstars = lm(Velocity~Distance, data=stars1)
 lmstars
 ```
 
+در کد بالا lmreg برآورد رگرسیونی به صورت ناپارامتری است و lm به صورت پارامتری است.
+
 حال میخواهیم مدل بالا را مستقیم بدست آوریم
+
 
 روش دوم:
 
@@ -392,6 +395,47 @@ cbind(p, MLE, se)
 
 با n های متفاوت نیز کد بالا را امتحان میکنیم. هر چه n بیشتر شود برآورد پارامتر به مقدار واقعی پارامتر نزدیک تر میشود و مقدار se کاهش میابد.
 
+
+## مقادیر برازش داده شده و باقی مانده ها
+
+مقادیر برازش داده شده به y را به این صورت تعریف کردیم:
+
+$$
+\hat{y} = X(X'X)^{-1}X'y = Hy
+$$
+
+اگر $X'X$ تکین باشد، معکوس بالا می شود معکوس تعمیم یافته. 
+
+می خواهیم مقادیر برازش داده شده را بیابیم:
+
+به دو روش می توان این مقادیر را بدست اورد:
+
+روش اول:
+
+```R
+library(lmreg)
+
+data(lifelength) # library lmreg
+head(lifelength)
+attach(lifelength)
+
+X = cbind(1, binaries(Category))
+H = X %*% ginv(t(X) %*% X) %*% t(X)
+y = Lifelength
+yhat = H %*% y
+
+```
+
+روش دوم:
+
+```R
+library(lmreg)
+
+data(lifelength) # library lmreg
+head(lifelength)
+lm = lm(Lifelength~factor(Category), data = lifelength)
+fitted = lm$fit
+```
 
 ## شناساپذیری و برآوردپذیری
 می خواهیم شناساپذیری را چک کنیم. 
