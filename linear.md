@@ -115,7 +115,7 @@ $$
 ,
 \mu = \begin{pmatrix} \mu_{x} \\ \mu_{y} \end{pmatrix}
 ,
-\Sigma =  \begin{pmatrix} \sigma^2_{x} & \sigma_{x y} \\ \sigma_{x y} & \sigma^2_{y}  \end{pmatrix} = \begin{pmatrix} \sigma^2_{x} & \rho \sigma_{x} \sigma_{y} \\ \sigma_{x} \sigma_{y} & \sigma^2_{y}  \end{pmatrix}
+\Sigma =  \begin{pmatrix} \sigma^2_{x} & \sigma_{x y} \\ \sigma_{x y} & \sigma^2_{y}  \end{pmatrix} = \begin{pmatrix} \sigma^2_{x} & \rho \sigma_{x} \sigma_{y} \\ \rho \sigma_{x} \sigma_{y} & \sigma^2_{y}  \end{pmatrix}
 $$
 ```
 همبستگی بین x, y:
@@ -285,6 +285,8 @@ $$
 $$
 E(y|X) = \mu_y + \Sigma_{yX} \Sigma_{XX}^{-1} (X-\mu_X) = \mu_y + \sigma'_{Xy} \Sigma_{XX}^{-1}(X-\mu_X)
 $$
+
+و
 
 $$
 Var(y|X) = \sigma_y^2 - \sigma'_{Xy} \Sigma_{XX}^{-1} \sigma_{Xy}
