@@ -282,16 +282,16 @@ $$
 
 بطوری که:
 
+```math
 $$
 E(y|X) = \mu_y + \Sigma_{yX} \Sigma_{XX}^{-1} (X-\mu_X) = \mu_y + \sigma'_{Xy} \Sigma_{XX}^{-1}(X-\mu_X)
 $$
 
-و
 
 $$
 Var(y|X) = \sigma_y^2 - \sigma'_{Xy} \Sigma_{XX}^{-1} \sigma_{Xy}
 $$
-
+```
 
 #
 ### مثال
